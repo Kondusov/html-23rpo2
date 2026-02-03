@@ -1,0 +1,49 @@
+h1{
+    background-color: aqua;
+    border: 1px solid #568
+}
+#header{border: none;}
+.nav a{
+    text-decoration: none;
+}
+.nav{
+    background: #565;
+    a{
+        font-size: large;
+    }
+}
+li{
+    display: flex;
+    justify-content: center;
+    background-color: #aa77a6;
+    margin: 10px 0;
+    padding: 5px;
+    box-sizing: border-box;
+
+    
+}
+
+li:hover{
+        background-color: #fad2f4;
+        transition: 0.5s;
+    }
+
+ol{
+    width: 25%;
+    list-style-type: none;
+}
+
+ol a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+ol a:hover{
+    color: #000;
+    transition: 0.5s;
+}
