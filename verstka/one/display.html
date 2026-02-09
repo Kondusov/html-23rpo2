@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>тестируем CSS свойство display</title>
+    <style>
+        html{font-size: 12px;}
+        p{
+            display: inline-block;
+        }
+        .three-block-column{
+            font-size: 10px;
+            height: 33vh;
+        }
+        .three-block-column p{
+            width: 30%;
+        }
+        .two-block-column p{
+            width: 43%;
+            margin: 0 15px;
+        }
+        .backGr{
+            background-color: aquamarine;
+        }
+        .three-block-column, .two-block-column{
+            font-family: cursive;
+        }
+        .three-block-column span{font-size: 2em;}
+        h3{font-size: 1.5rem;}
+    </style>
+</head>
+<body>
+    <div class="three-block-column">
+        <h3>Заголовок третьего порядка</h3>
+        <div><span>Спан элемент</span></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore nihil reprehenderit nobis quis ullam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore nihil reprehenderit nobis quis ullam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore nihil reprehenderit nobis quis ullam!</p>
+    </div>
+    <h3>Заголовок h3</h3>
+        <div class="two-block-column">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas minima explicabo dolores autem dolor recusandae adipisci repellat praesentium hic pariatur ad, quam suscipit fuga asperiores! Unde repellat voluptates accusantium!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas minima explicabo dolores autem dolor recusandae adipisci repellat praesentium hic pariatur ad, quam suscipit fuga asperiores! Unde repellat voluptates accusantium!</p>
+    </div>
+    <h3>Заголовок h3</h3>
+        <div class="two-block-column backGr">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas minima explicabo dolores autem dolor recusandae adipisci repellat praesentium hic pariatur ad, quam suscipit fuga asperiores! Unde repellat voluptates accusantium!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas minima explicabo dolores autem dolor recusandae adipisci repellat praesentium hic pariatur ad, quam suscipit fuga asperiores! Unde repellat voluptates accusantium!</p>
+    </div>
+</body>
+</html>
